@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:slnt,wght@-10..0,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'inter', sans-serif;
+}
+header{
+   
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    
+}
+.header-items{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 65vw;
+}
+.header-title{
+    color: rgba(230, 83, 60, 1);
+    font-variation-settings:
+      "slnt" -20;
+   font-size: 1.2rem;
+    
+}
+.header-fitness{
+      font-weight: 700;
+}
+
+nav ul{
+    display: flex;
+    gap: 60px;
+    border: 0.1px solid rgb(71, 71, 71);
+    border-radius: 30px;
+    padding: 10px 15px;
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 300; 
+}
+.home{
+  font-weight: 600;
+  background-color: rgba(230, 83, 60, 1);
+  border-radius: 30px;
+  padding: 8px 20px;
+  margin-left: -13px;
+}
+.service{
+    margin-left: -12px;
+}
+.intro{
+    width: 65vw;
+    margin: 5vh auto;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.intro-description{
+    width: 30vw;
+    margin-top: 8%;
+}
+.intro-description-title{
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 0.8;
+}
+
+.shape{
+    font-family: 'Miama', sans-serif;
+    font-weight: 100;
+    font-size: 150px;
+}
+.intro-description-para{
+    margin-top: 7vh;
+    width: 35vw;
+    font-weight: 100;
+    opacity: 0.8;
+}
+.intro-button{
+    margin-top: 3.5vh;
+    
+}
+.join-club{
+    width: 13vw;
+    border: 1px solid rgba(230, 83, 60, 1) ;
+    padding: 3% 0%;
+    background-color: rgba(230, 83, 60, 1);
+    border-radius: 25px;
+    color: white;
+    font-weight: 600;
+    font-size: 0.9rem;  
+}
+.download-app{
+    width: 13vw;
+    border: 1px solid rgb(247, 247, 247) ;
+    padding: 3% 0%;
+    border-radius: 25px;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-left: 1vw;
+}
+.intro-picture{
+    width: 35vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: 100% -25px ;
+    background-image:url(./B10A2-versatile-ui-main/images/Images\ 2.png) ;
+   
+}
+.intro-card, .intro-card-2{
+    width: 11vw;
+    height: 11vh;
+
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    text-align: center;
+    margin-left: 80%;
+    margin-top: 27%;
+}
+.intro-card-h1, .intro-card-h1-2{
+    margin-top: 3%;
+    font-size: 2rem;
+}
+.card-para1, .card-para2{
+    margin-top: 8px;
+    font-size: 0.7rem;
+    font-weight: 100;
+}
+.intro-card-2{
+    margin-left: 20%;
+    margin-top: 35%;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+.play-icon{
+    width: 2rem;
+    background-color:rgba(230, 83, 60, 1) ;
+    border:1px solid rgba(230, 83, 60, 1);
+    border-radius: 50%;
+    padding: 2%;
+    margin-top: 70%;
+}
+.habit{
+    width: 65vw;
+    margin: -9% auto;
+}
+.intro-space{
+    width: 35vw;
+    margin: 0px auto;
+}
+.habit-title{
+    text-align: center;
+    font-size: 2.6rem;
+}
+.habit-para{
+     margin-top: 3%;
+    text-align: center;
+    font-weight: 100;
+   opacity: 0.7;
+}
+.habit-type-img{
+    border: 0.2rem solid rgb(51, 51, 51);
+    border-radius: 50%;
+    width: 11vw;
+    margin: 0px auto;
+}
+.habit-type{
+    width: 17vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.habit-type-header{
+    margin-top: 12%;
+   text-align: center;
+   font-weight: 500;
+}
+.habit-type-para{
+    margin-top: 2%;
+    text-align: center;
+    font-weight: 100;
+    opacity: 0.7;
+    font-size: 0.85rem;
+}
+.habit-type-element{
+    display: flex;
+    margin-top: 5% ;
+}
+
+.join-now-poster{
+    width: 65vw;
+    height: 40vh;
+    margin: 10% auto;
+    border: 1px solid rgb(71, 71, 71);
+    border-radius: 20px;
+    background-color: rgb(71, 71, 71);
+}
