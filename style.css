@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:slnt,wght@-10..0,100..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/miama');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+.end{
+    margin-top: 100px;
 }
 body{
     height: 100vh;
@@ -32,10 +35,11 @@ header{
     font-variation-settings:
       "slnt" -20;
    font-size: 1.2rem;
-    
+    font-weight: 600;
 }
 .header-fitness{
-      font-weight: 700;
+      font-weight: 900;
+      
 }
 
 nav ul{
@@ -51,7 +55,7 @@ nav li{
 nav li a{
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-weight: 300; 
+    font-weight: 100; 
 }
 .home{
   font-weight: 600;
@@ -126,8 +130,8 @@ nav li a{
    
 }
 .intro-card, .intro-card-2{
-    width: 11vw;
-    height: 11vh;
+    width: 30%;
+    height: 11%;
 
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     backdrop-filter: blur(10px);
@@ -174,6 +178,7 @@ nav li a{
 .habit-title{
     text-align: center;
     font-size: 2.6rem;
+    font-weight: 800;
 }
 .habit-para{
      margin-top: 3%;
@@ -212,9 +217,109 @@ nav li a{
 
 .join-now-poster{
     width: 65vw;
-    height: 40vh;
+    height: 45vh;
     margin: 10% auto;
     border: 1px solid rgb(71, 71, 71);
     border-radius: 20px;
-    background-color: rgb(71, 71, 71);
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+.poster-header{
+    font-size: 2.9rem;
+    width: 50%;
+    font-weight: 800;
+}
+.poster-para{
+    width: 60%;
+   font-size: 0.8rem;
+    margin-top: 3%;
+    font-weight: 200;
+    opacity: 0.7;
+    line-height: 25px;
+}
+.poster-img{
+    border: 1px solid rgb(71, 71, 71);
+    border-radius: 15px;
+    scale: 1.2;
+}
+.poster-button{
+    border: 1px solid rgba(230, 83, 60, 1);
+             background-color:rgba(230, 83, 60, 1) ;
+             padding: 2%;
+             color: white;
+             border-radius: 40px ;
+             width: 13vw;
+             height: 21%;
+             font-size: 1.3rem;
+             margin-top: 3%;
+}
+.BMI-Claculator{
+    width: 65vw;
+    margin: 15% 30% 0% 30%;
+    
+
+    
+}
+.BMI-header{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.BMI-para{
+  font-weight: 200;
+  font-size: 0.8rem;
+  opacity: 0.7;
+  margin-top: 2%;
+}
+.calculator{
+    width: 100vw;
+    height: 60%;
+    background-color: rgb(34, 34, 34);
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+td{
+    border: 1px solid rgb(137, 137, 137);
+    padding: 3%;
+    font-size: 0.9rem;
+}
+table{
+    border-collapse: collapse;
+    
+}
+.calculator-element{
+    width: 65vw;
+    margin: 5% auto;
+    display: flex;
+    justify-content: space-between;
+}
+.table-data{
+    font-size: 0.8rem;
+    font-weight: 200;
+    opacity: 0.7;
+    /* padding: 10px 30px; */
+}
+.table-head{
+    padding: 3%;
+}
+.chart-table{
+    margin-top: 15%;
+}
+.calculation{
+    margin-left: 20%;
+}
+.height{
+    width: 95%;
+    padding: 10px;
+    border: 1px solid rgb(43, 42, 42);
+    border-radius: 5px;
+    background-color: rgb(43, 42, 42);
+    margin: 4px;
+}
+
+.requirement{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
 }
