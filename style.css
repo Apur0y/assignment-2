@@ -219,7 +219,7 @@ nav li a{
 .join-now-poster{
     width: 65vw;
     height: 45vh;
-    margin: 10% auto;
+    margin: 15% 1% 0% 17.7%;
     border: 1px solid rgb(71, 71, 71);
     border-radius: 20px;
     background-color: rgb(41, 41, 41);
@@ -240,10 +240,15 @@ nav li a{
     opacity: 0.7;
     line-height: 25px;
 }
+.poster-desctiption{
+    margin-top: -6%;
+    
+}
 .poster-img{
     border: 1px solid rgb(71, 71, 71);
     border-radius: 15px;
-    scale: 1.2;
+    scale: 1.6;
+    margin-right: 1.5%;
 }
 .poster-button, .cal-button{
     border: 1px solid rgba(230, 83, 60, 1);
@@ -258,13 +263,10 @@ nav li a{
 }
 .BMI-Claculator{
     width: 65vw;
-    margin: 15% 30% 0% 30%;
-    
-
-    
+    margin: 6% 30% 0% 30%;  
 }
 .BMI-header{
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     font-weight: 800;
 }
 .BMI-para{
@@ -275,14 +277,14 @@ nav li a{
 }
 .calculator{
     width: 100vw;
-    height: 60%;
+    height: 65%;
     background-color: rgb(34, 34, 34);
     margin-top: 3%;
     display: flex;
     justify-content: space-between;
 }
 td{
-    border: 1px solid rgb(137, 137, 137);
+    border: 1px solid rgb(85, 85, 85);
     padding: 3%;
     font-size: 0.9rem;
 }
@@ -292,7 +294,7 @@ table{
 }
 .calculator-element{
     width: 65vw;
-    margin: 5% auto;
+    margin: 4% auto;
     display: flex;
     justify-content: space-between;
 }
@@ -300,22 +302,33 @@ table{
     font-size: 0.8rem;
     font-weight: 200;
     opacity: 0.7;
-    /* padding: 10px 30px; */
+    padding: 10px 30px; 
 }
 .table-head{
-    padding: 3%;
+    padding: 4%;
+}
+.chart-title{
+    font-size: 1.7rem;
+    margin-left: -5%;
 }
 .chart-table{
-    margin-top: 15%;
+    margin-top: 20%;
+    scale: 1.1;
+
+
 }
 .calculation{
     margin-left: 20%;
+    margin-top: 2%;
+    scale: 1.2;
+    line-height: 2;
 }
 .calculation-para{
     font-weight: 200;
     font-size: 0.8rem;
     opacity: 0.7;
-    margin-top: 2%;
+    margin-top: 0%;
+    margin-bottom: 4%;
 }
 .height{
     width: 95%;
@@ -329,6 +342,7 @@ table{
 .requirement{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    margin-left: -1%;
 }
 .selection{
     background-color: rgb(43, 42, 42);
@@ -344,6 +358,9 @@ table{
     grid-column: 1/3;
     grid-row: 3;
     width: 98%;
+}
+#calculate-info{
+    font-size: 1rem;
 }
 #team-title{
     margin-top: 4%;
@@ -366,7 +383,7 @@ table{
     margin-top: 4%;
 }
 .profile{
-    height: 30vh;
+    height: 33vh;
   
     background-image:url(./B10A2-versatile-ui-main/images/trainer1.png);
     background-repeat: no-repeat;
@@ -383,8 +400,6 @@ table{
     gap: 10px;
 }
 #Jeromw{
-    /* margin-top: 5%;
-    margin-left: 5%; */
     margin: 5% 2% 2.5% 5%;
 }
 #Cameron{
@@ -426,7 +441,7 @@ table{
 .footer-left-title{
     color:rgb(243, 71, 45) ;
     font-weight: 800;
-    font-size: 3rem;
+    font-size: 4rem;
     font-style: italic;
 }
 .footer-left-para{
@@ -438,7 +453,9 @@ table{
   opacity: 0.7;
 }
 .mid{
-    margin-left: -500px;
+    margin-left: -50%;
+    scale: 1.2;
+    margin-top: 4%;
 }
 .mid-items{
     font-size: 0.9rem;
@@ -446,6 +463,10 @@ table{
     line-height: 2.5;
     font-weight: 400;
     margin-top: 18%;
+}
+.right{
+    scale: 1.2;
+    margin-top: 4%;
 }
  hr{
     margin-left:2%; 
