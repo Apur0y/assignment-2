@@ -36,6 +36,7 @@ header{
       "slnt" -20;
    font-size: 1.2rem;
     font-weight: 600;
+    font-style: italic;
 }
 .header-fitness{
       font-weight: 900;
@@ -244,9 +245,9 @@ nav li a{
     border-radius: 15px;
     scale: 1.2;
 }
-.poster-button{
+.poster-button, .cal-button{
     border: 1px solid rgba(230, 83, 60, 1);
-             background-color:rgba(230, 83, 60, 1) ;
+             background-color:rgb(222, 68, 44) ;
              padding: 2%;
              color: white;
              border-radius: 40px ;
@@ -310,6 +311,12 @@ table{
 .calculation{
     margin-left: 20%;
 }
+.calculation-para{
+    font-weight: 200;
+    font-size: 0.8rem;
+    opacity: 0.7;
+    margin-top: 2%;
+}
 .height{
     width: 95%;
     padding: 10px;
@@ -322,4 +329,147 @@ table{
 .requirement{
     display: grid;
     grid-template-columns: repeat(2,1fr);
+}
+.selection{
+    background-color: rgb(43, 42, 42);
+     color: rgb(145, 145, 145);
+    width: 95%;
+    padding: 10px;
+    border: 1px solid rgb(43, 42, 42);
+    border-radius: 5px;
+    background-color: rgb(43, 42, 42);
+    margin: 4px;
+}
+#factor{
+    grid-column: 1/3;
+    grid-row: 3;
+    width: 98%;
+}
+#team-title{
+    margin-top: 4%;
+   text-align: center;
+    
+}
+#team-para{
+    text-align: center;
+}
+.team-background{
+    background-color: rgb(38, 38, 38);
+    width: 65vw;
+    border: 1px solid rgb(38,38,38);
+    border-radius: 10px;
+
+}
+.team-center{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+.profile{
+    height: 30vh;
+  
+    background-image:url(./B10A2-versatile-ui-main/images/trainer1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid rgb(38,38,38);
+    border-radius: 10px;
+    background-color: rgb(0,0,0,0.3);
+    background-blend-mode: overlay;
+
+}
+.trainers{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+#Jeromw{
+    /* margin-top: 5%;
+    margin-left: 5%; */
+    margin: 5% 2% 2.5% 5%;
+}
+#Cameron{
+    margin: 5% 2% 2.5% 0%;
+    background-image: url(./B10A2-versatile-ui-main/images/trainer2.png);
+}
+#Darrell{
+    margin-top: 5%;
+    margin-right: 5%;
+    background-image: url(./B10A2-versatile-ui-main/images/trainer3.png);
+}
+#Dianne{
+    margin: 0% 2% 5% 5%;
+    background-image: url(./B10A2-versatile-ui-main/images/trainer4.png);
+}
+#Cody{
+    margin-right: 2%;
+    background-image: url(./B10A2-versatile-ui-main/images/trainer5.png);
+}
+#Theresa{
+    margin-right: 5%;
+    background-image: url(./B10A2-versatile-ui-main/images/trainer6.png);
+}
+
+.footer{
+    background-color: rgb(15, 15, 15);
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+.footer-align{
+    width: 65vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 3%;
+    border-bottom: 2px solid rgb(53, 53, 53);
+    padding-bottom: 60px;
+}
+.footer-left-title{
+    color:rgb(243, 71, 45) ;
+    font-weight: 800;
+    font-size: 3rem;
+    font-style: italic;
+}
+.footer-left-para{
+  font-weight: 100;
+  font-size: 0.8rem;
+  width: 50%;
+  margin-top: 1%;
+  line-height: 1.5;
+  opacity: 0.7;
+}
+.mid{
+    margin-left: -500px;
+}
+.mid-items{
+    font-size: 0.9rem;
+    color: rgb(96, 96, 96);
+    line-height: 2.5;
+    font-weight: 400;
+    margin-top: 18%;
+}
+ hr{
+    margin-left:2%; 
+    
+} 
+.horizontal-line{
+    width: 68vw;
+}
+.copyright-para{
+    text-align: center;
+    margin: 5%;
+    opacity: 0.3;
+}
+.trainer-name{
+    position: relative;
+    top: 70%;
+    left: 5%;
+    font-size: 1.3rem;
+}
+.roll{
+    position: relative;
+    top: 73%;
+    left: 5%;
+    font-size: 0.9rem;
+    opacity: 0.7;
+    font-weight: 200;
 }
