@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-2</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
 </head>
 <body>
    <header class="header">
@@ -13,8 +14,11 @@
         <h1 class="header-fitness">Fitness</h1>
     </div>
     <div class="header-nav">
+       
         <nav class="header-nav-items">
-        <ul>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
+        <ul class="conUl">
             <li><a href="" class="home">Home</a></li>
             <li><a href="" class="service">Service</a></li>
             <li><a href="" class="contact">Contact</a></li>
@@ -99,6 +103,61 @@
     </div>
     <img src="./B10A2-versatile-ui-main/images/run 3.jpg" alt="" class="poster-img">
   </section>
+
+
+  <div class="package">
+    <h1 class="package-title">Our Packages</h1>
+    <p class="package-para">Select the best suitable package for you. You get the best deal here.</p>
+  </div>
+
+  <section class="pricing-section">
+    <div class="card">
+        <h3>Basic</h3>
+        <p class="price">$100/<span class="month">month</span></p>
+        <div class="facilities">
+         <ul>
+            <li>Access to gym facilities.</li>
+            <li>Off-peak hours.</li>
+            <li>Basic equipment.</li>
+            <li>One group fitness class per week.</li>
+         </ul>
+    </div>
+         <button>Join Now</button>
+    </div>
+
+    <div class="card">
+        <h3>Standard</h3>
+        <p class="price">$300/<span class="month">month</span></p>
+        <div class="facilities">
+            <ul>
+                <li>Unlimited access to gym facilities.</li>
+                <li>Advanced equipment.</li>
+                <li>Access to all group fitness classes.</li>
+                <li>Support from trainers</li>
+            </ul>
+        </div>
+      
+        <button>Join Now</button>
+    </div>
+
+    <div class="card">
+        <h3>Premium</h3>
+        <p class="price">$500/<span class="month">month</span></p>
+        <div class="facilities">
+            <ul>
+                <li>All-inclusive membership.</li>
+                <li>Nutrition consultation.</li>
+                <li>VIP access to special events.</li>
+                <li>Get a personal trainer.</li>
+            </ul>
+        </div>
+    
+        <button>Join Now</button>
+    </div>
+</section>
+
+
+
 
 <div class="BMI-Claculator">
     <h1 class="BMI-header">BMI Calculator</h1>
@@ -258,6 +317,7 @@
     </div>
    
     </footer>
+    
 
 </body>
 </html>

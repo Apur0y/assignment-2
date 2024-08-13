@@ -54,6 +54,7 @@ nav li{
     list-style: none;
 }
 nav li a{
+
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-weight: 100; 
@@ -98,6 +99,7 @@ nav li a{
 }
 .intro-button{
     margin-top: 3.5vh;
+    display: block;
     
 }
 .join-club{
@@ -493,4 +495,199 @@ table{
     font-size: 0.9rem;
     opacity: 0.7;
     font-weight: 200;
+}
+
+
+
+.pricing-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+    width: 75vw;
+    padding: 2%
+}
+
+.card {
+    background-color: rgb(28, 28, 28);
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 3%;
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+.facilities{
+    line-height: 1.5;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+.card:hover {
+    transform: translateY(-10px) scale(1.1) ;
+    background-color: rgb(24, 30, 33);
+    box-shadow: 0 8px 15px rgb(86, 17, 17);
+}
+
+.card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fafafa;
+}
+
+.price {
+    font-size: 28px;
+    color: #e74c3c;
+    margin: 15px 0;
+}
+
+.card p {
+    font-size: 16px;
+    color: white;
+    margin: 10px 0;
+   border-bottom: 1px solid white;
+}
+
+.month{
+    font-size: 0.9rem;
+    font-weight: 200;
+    opacity: 0.7;
+}
+
+
+button {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #c0392b;
+}
+
+.package-title{
+    text-align: center;
+    font-size: 2.8rem;
+    margin-top: 5%;
+}
+.package-para{
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 200;
+    margin-top: 1%;
+}
+
+.facilities ul li{
+    margin-top: 4%;
+    font-size: 0.9rem;
+    font-weight: 200;
+    opacity: 0.7;
+}
+#check{
+    display: none;
+}
+.checkbtn{
+   float: right;
+   line-height: 2.7;
+font-size: 1.2rem;
+   display: none;
+}
+ #check:checked ~ .conUl{
+    margin-left: 30%;
+ }
+
+
+@media (max-width:576px) {
+    .checkbtn{
+        display: inline-block;
+       
+    }
+    nav ul{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        background-color: rgb(86, 45, 26);
+        margin-left: 80px;
+        padding: 20px;
+        left: -100%;
+      
+    }
+    .conUl{
+        margin-left: -800%;
+        transition: 0.5s;
+
+    }
+
+    .home{
+        margin-left: 9%;
+        
+    }
+    .service{
+        margin-left: 23%;
+    }
+    .contact{
+        margin-left: 23%;
+    }
+    .about{
+        margin-left: 27%;
+    }
+    .header-items{
+        height: 6vh;
+        width: 80%;
+    }
+    .intro-description-title{
+        font-size: 2rem;
+        width: 60vw;
+    }
+     .intro-description-para{
+        margin-top: 15%;
+        width: 62vw;
+     }
+   .intro{
+    width: 85%;
+    flex-direction: column;
+    margin: 1% auto;
+   }
+   .shape{
+    font-size: 4rem;
+   }
+   .join-club{
+    width: 40vw;
+   }
+   .download-app{
+    width: 40vw;
+   }
+   .intro-button{
+    width: 100vw;
+  display: flex;
+  flex-direction: row;
+  margin-left: 6%;
+   }
+   .intro-picture{
+    height: 55vh;
+     width: 100vw;
+    background-position: 50% 25px;
+   }
+   .intro-card{
+    margin-left: 60%;
+    height: 8vh;
+   }
+   .intro-card-2{
+    height: 8vh;
+    width: 35vw;
+    margin-left: 10%;
+   }
+   .habit-title{
+    font-size: 2rem;
+    margin-top: 40%;
+    width: 100vw;
+    margin-left: -90%;
+   }
+   .habit-para{
+    margin-top: 10%;
+    width: 70vw;
+    margin-left: -50%;
+   }
 }
