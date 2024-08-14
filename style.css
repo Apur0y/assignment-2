@@ -279,7 +279,7 @@ nav li a{
 }
 .calculator{
     width: 100vw;
-    height: 65%;
+    height: auto;
     background-color: rgb(34, 34, 34);
     margin-top: 3%;
     display: flex;
@@ -676,10 +676,10 @@ margin-left: -60%;
    }
    .intro-card{
     margin-left: 60%;
-    height: 8vh;
+    height: auto;
    }
    .intro-card-2{
-    height: 8vh;
+    height: auto;
     width: 35vw;
     margin-left: 10%;
    }
@@ -730,19 +730,19 @@ margin-left: -60%;
 }
 .poster-para{
     width: 60vw;
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin-bottom: 5%;
 }
 .poster-img{
     scale: 1;
-  height: 25vh;
+  height: auto;
   margin-top: 8%;
   margin-left: 3%;
 
 }
 .poster-button{
     width: 65vw;
-    height: 7vh;
+    height: 15%;
 }
 .poster-desctiption{
     margin-left: 4%;
@@ -778,8 +778,8 @@ margin: 0 auto;
 }
 .calculator{
     width: 100vw;
-    height: 90%;
-   margin: 0 auto;
+    height: auto;
+   margin: 20px auto;
    
 }
 .calculator-element{
@@ -787,32 +787,29 @@ margin: 0 auto;
     margin-left: 15%;
 }
 .chart-table{
-    margin-top: 10%;
+    /* margin-top: 10%; */
    
 }
 .chart-title{
     font-size: 1.4rem;
-    margin-top: 4%;
+    /* margin-top: 4%; */
 }
 .calculation-title{
     font-size: 1.4rem;
     
 }
-.calculation-top{
-    
-}
+
 .calculation{
      margin-left: 5%;
+     padding: 20% 0%;
 }
 #calculate-info{
     width: 40vw;
-    height: 5vh;
+    height: 8%;
 }
-.calculation-title{
-    margin-top: -95%;
-}
+
 #team-title{
-    margin-left: 25%;
+    margin-left: 18%;
 }
 #team-para{
     margin-left: 15%;
