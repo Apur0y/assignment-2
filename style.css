@@ -696,9 +696,7 @@ font-size: 1.2rem;
    .habit-type-element{
     flex-direction: column;
    }
-   .habit-type{
-    
-   }
+  
    .habit-type-img{
     width: 50vw;
     margin-left: 60%;
@@ -715,6 +713,7 @@ font-size: 1.2rem;
     width: 80vw;
     margin-left: 11%;
     height: auto;
+    gap: 20px;
     
 }
 .poster-header{
@@ -723,13 +722,15 @@ font-size: 1.2rem;
     font-size: 2.3rem;
 }
 .poster-para{
-    width: 70vw;
+    width: 60vw;
+    font-size: 1rem;
+    margin-bottom: 5%;
 }
 .poster-img{
     scale: 1;
   height: 25vh;
   margin-top: 8%;
-  margin-left: 4%;
+  margin-left: 3%;
 
 }
 .poster-button{
@@ -750,9 +751,31 @@ gap: 20px;
 .facilities{
     margin-left: 10%;
 }
-
-
-
-
+.BMI-Claculator{
+    margin-left: 11%;
+}
+.calculator{
+    width: 100vw;
+    height: 80vh;
+}
+.calculator-element{
+    flex-direction: column;
+    margin-left: 15%;
+}
+.chart-table{
+    margin-top: 10%;
+    width: 80vw;
+}
+.calculation{
+    margin-top: 18%;
+    margin-left: 5%;
+}
+#calculate-info{
+    width: 40vw;
+    height: 5vh;
+}
+.calculation-title{
+    margin-top: -95%;
+}
 
 }
