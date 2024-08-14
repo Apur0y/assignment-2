@@ -777,5 +777,47 @@ gap: 20px;
 .calculation-title{
     margin-top: -95%;
 }
+.trainers{
+    display: flex;
+    flex-direction: column;
+}
+#Jeromw{
+    margin-right: 6%;
+    margin-left: 6%;
+}
+#Cameron{
+    margin: 0% 5% 2% 6%;
+}
+#Darrell{
+    margin: 0% 5% 2% 5%;
+}
+#Dianne{
+    margin: 0% 5% 0% 5%;
+    background-position: 70% 0px;
+}
+#Cody{
+    margin: 2% 5% 0% 5%;
+}
+#Theresa{
+    margin: 2% 5% 5% 5%;
+}
+.footer-align{
+    flex-direction: column;
+}
+.footer-left-title{
+    font-size: 4.3rem;
+}
+.footer-left-para{
+    width: 60vw;
+}
+.mid{
+    margin:20% 0% 5% 10%;
+}
+.right{
+    margin: 20% 0% 5% 10%;
+}
+.mid-items{
+    margin-top: 5%;
+}
 
 }
