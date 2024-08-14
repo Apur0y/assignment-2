@@ -755,6 +755,14 @@ flex-direction: column;
 gap: 20px;
 
 }
+.package{
+    margin-top: 10%;
+}
+.package-para{
+    opacity: 0.7;
+    width: 75vw;
+    margin: 2% auto;
+}
 .card{
     /* margin-left: 20%; */
 margin: 0 auto;
