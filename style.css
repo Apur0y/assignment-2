@@ -386,7 +386,6 @@ table{
 }
 .profile{
     height: 33vh;
-  
     background-image:url(./B10A2-versatile-ui-main/images/trainer1.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -673,6 +672,7 @@ margin-left: -60%;
     height: 55vh;
      width: 80vw;
     background-position: 50% 25px;
+    margin-left: 7%;
    }
    .intro-card{
     margin-left: 60%;
@@ -810,9 +810,13 @@ gap: 20px;
     display: flex;
     flex-direction: column;
 }
+.trainer-name{
+    width: 75vw;
+}
 #Jeromw{
     margin-right: 6%;
     margin-left: 6%;
+   
 }
 #Cameron{
     margin: 0% 5% 2% 6%;
@@ -838,17 +842,25 @@ gap: 20px;
 }
 .footer-left-title{
     font-size: 4.3rem;
+    margin-left: -10%;
 }
 .footer-left-para{
     width: 60vw;
+    margin-left: -10%;
 }
 .mid{
-    margin:20% 0% 5% 10%;
+    margin:20% 0% 5% 12%;
+    scale: 1.5;
 }
 .right{
-    margin: 20% 0% 5% 10%;
+    margin: 30% 0% 5% 12%;
+    scale: 1.5;
+
 }
 .mid-items{
     margin-top: 5%;
+}
+.team-background{
+    width: 80vw;
 }
 }
